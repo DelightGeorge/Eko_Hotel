@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 640px) {
+  /* Stack the text and form vertically */
+  .banner11 .flex {
+    flex-direction: column !important;
+  }
+
+  /* Move the text section above the form */
+  .banner11 .mt-80 {
+    margin-top: 0 !important;
+    margin-bottom: 16px;
+  }
+
+  .banner11 .ml-16 {
+    margin-left: 0 !important;
+  }
+
+  .banner11 .leading-\[64px\] {
+    line-height: 28px !important;
+  }
+
+  .banner11 .text-\[66px\] {
+    font-size: 18px !important;
+    line-height: 28px !important;
+  }
+
+  /* Adjust form container */
+  .banner11 .px-\[15px\],
+  .banner11 .mx-\[40px\] {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .banner11 .w-\[612px\] {
+    width: 100% !important;
+    padding: 16px !important;
+    margin: 0 auto !important;
+  }
+
+  .banner11 .text-3xl {
+    font-size: 1.25rem !important;
+    margin-top: 24px;
+  }
+
+  .banner11 button {
+    font-size: 12px !important;
+    padding: 4px 16px !important;
+  }
+
+  .banner11 .text-gray-500 {
+    font-size: 12px !important;
+  }
+}
