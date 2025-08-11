@@ -614,6 +614,10 @@ video {
   left: 0px;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
 .left-16{
   left: 4rem;
 }
@@ -628,6 +632,10 @@ video {
 
 .left-\[470px\]{
   left: 470px;
+}
+
+.right-1{
+  right: 0.25rem;
 }
 
 .right-2{
@@ -861,6 +869,10 @@ video {
 
 .h-\[1\.5px\]{
   height: 1.5px;
+}
+
+.h-\[10px\]{
+  height: 10px;
 }
 
 .h-\[120px\]{
@@ -1114,6 +1126,10 @@ video {
   overflow-x: hidden;
 }
 
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
 .rounded{
   border-radius: 0.25rem;
 }
@@ -1327,6 +1343,11 @@ video {
   padding-right: 20px;
 }
 
+.px-\[70px\]{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1370,6 +1391,11 @@ video {
 .py-\[40px\]{
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.py-\[60px\]{
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .py-\[6px\]{
@@ -1723,12 +1749,10 @@ video {
 }
 
 @keyframes slidein {
-  from {
-    width: 100px;
+  0% {
   }
 
-  to {
-    width: 200px;
+  100%{
   }
 }
 
