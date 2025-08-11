@@ -6,12 +6,10 @@
 
 
 @media (max-width: 640px) {
-  /* Stack the text and form vertically */
   .banner11 .flex {
     flex-direction: column !important;
   }
 
-  /* Move the text section above the form */
   .banner11 .mt-80 {
     margin-top: 0 !important;
     margin-bottom: 16px;
@@ -30,7 +28,6 @@
     line-height: 28px !important;
   }
 
-  /* Adjust form container */
   .banner11 .px-\[15px\],
   .banner11 .mx-\[40px\] {
     padding: 0 !important;
@@ -55,5 +52,15 @@
 
   .banner11 .text-gray-500 {
     font-size: 12px !important;
+  }
+}
+
+
+@keyframes slidein {
+  from {
+width: 100px;
+  }
+  to {
+    width: 200px;
   }
 }

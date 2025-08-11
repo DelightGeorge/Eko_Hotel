@@ -806,14 +806,6 @@ video {
   margin-top: 6rem;
 }
 
-.ml-\[20px\]{
-  margin-left: 20px;
-}
-
-.ml-\[16\]{
-  margin-left: 16;
-}
-
 .block{
   display: block;
 }
@@ -1681,13 +1673,9 @@ video {
 }
 
 @media (max-width: 640px) {
-  /* Stack the text and form vertically */
-
   .banner11 .flex {
     flex-direction: column !important;
   }
-
-  /* Move the text section above the form */
 
   .banner11 .mt-80 {
     margin-top: 0 !important;
@@ -1706,8 +1694,6 @@ video {
     font-size: 18px !important;
     line-height: 28px !important;
   }
-
-  /* Adjust form container */
 
   .banner11 .px-\[15px\],
   .banner11 .mx-\[40px\] {
@@ -1733,6 +1719,16 @@ video {
 
   .banner11 .text-gray-500 {
     font-size: 12px !important;
+  }
+}
+
+@keyframes slidein {
+  from {
+    width: 100px;
+  }
+
+  to {
+    width: 200px;
   }
 }
 
@@ -1875,6 +1871,10 @@ video {
     margin-top: -2rem;
   }
 
+  .md\:ml-16{
+    margin-left: 4rem;
+  }
+
   .md\:ml-6{
     margin-left: 1.5rem;
   }
@@ -1897,34 +1897,6 @@ video {
 
   .md\:mt-80{
     margin-top: 20rem;
-  }
-
-  .md\:ml-\[\]{
-    margin-left: ;
-  }
-
-  .md\:ml-\[14px\]{
-    margin-left: 14px;
-  }
-
-  .md\:ml-\[16px\]{
-    margin-left: 16px;
-  }
-
-  .md\:ml-\[17px\]{
-    margin-left: 17px;
-  }
-
-  .md\:ml-\[20px\]{
-    margin-left: 20px;
-  }
-
-  .md\:ml-\[16\]{
-    margin-left: 16;
-  }
-
-  .md\:ml-16{
-    margin-left: 4rem;
   }
 
   .md\:flex{
